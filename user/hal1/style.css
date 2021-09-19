@@ -1,0 +1,159 @@
+body{
+	font: 16px/20px arial, sans-serif;
+	background-color: skyblue;
+	color: #333;
+	background-image: url(../img/bg4.png);
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: whitesmoke;
+
+}
+/*HEADER*/
+
+.header{
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-left: 20px;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+}
+
+.header	ul li {
+	display: inline-block;
+	margin-top: auto;
+	margin-right:5px ;
+}
+
+/*.header a {
+	text-decoration: none;
+	color: salmon;
+	text-transform: capitalize;
+	padding: 5px;
+}
+
+.header a:hover {
+	background-color: #303956;
+	color: white;
+}*/
+
+/*MENU BOX*/
+
+.header a {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: arial, sans-serif;
+  text-transform: capitalize ;
+  margin-right: 20px;
+  margin: auto;
+}
+.header a:hover, .header a:focus {
+  color: #fff;
+  outline: 0;
+}
+.header a {
+  border-color: #8e44ad;
+  border-radius: 0;
+  color: #8e44ad;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 150ms ease-in-out;
+}
+.header a:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #8e44ad;
+  z-index: -1;
+  transition: width 150ms ease-in-out;
+}
+.header a:hover {
+  color: #fff;
+}
+.header a:hover:after {
+  width: 110%;
+}
+
+/*IMAGE*/
+
+.img{
+	height: 300px;
+	background-image: url(../img/img1.jpg);
+	background-size: cover;
+	background-position: 0 -200px;
+	border-top: 5px solid #8e44ad;
+	border-bottom: 5px solid salmon;
+	margin-top: 10px;
+}
+
+.content{
+	padding: 20px;
+}
+
+.content h2{
+	font-size: 28px;
+	text-transform: capitalize;
+	margin-top: -5px;
+	margin-left: 20px;
+}
+
+.content .konten{
+	margin-left: 20px;
+}	
+
+.content .penulis{
+ 	font-size: 12px;
+ 	margin-left: 20px;
+ 	margin-top: -20px;
+}
+.penulis a{
+	text-decoration: none;
+	color: black;
+}
+
+.penulis a:hover{
+	font-weight: bold;
+	font-size: 15px;
+	color: red;
+}
+
+.content .konten{
+	text-transform: capitalize;
+}
+
+.content .motivasi{
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 20px;
+	font-family: courier new;
+}
+}
